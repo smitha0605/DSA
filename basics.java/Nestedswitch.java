@@ -14,17 +14,12 @@ public class Nestedswitch {
                     break;
                 case 3: 
                         System.out.println("Emp number 3");  
-                    switch(department){
-                        case "IT" :
-                            System.out.println("IT Department");
-                            break;
-                            case "CSE" :
-                                System.out.println("CSE Department");
-                                break;
-                                default :
-                                System.out.println("No Department found");
-                                break;
-                    }
+                switch (department) {
+                    case "IT" -> System.out.println("IT Department");
+                    case "CSE" -> System.out.println("CSE Department");
+                    default -> System.out.println("No Department found");
+                }
+                ;
         }
         sc.close();
 
