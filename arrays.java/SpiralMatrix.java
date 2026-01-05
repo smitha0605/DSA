@@ -45,8 +45,10 @@ public class SpiralMatrix {
                 left++;
             }
         }
-        return result;
+        return  result;
     }
+
+
 }
     
 
