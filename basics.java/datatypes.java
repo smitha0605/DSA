@@ -1,7 +1,7 @@
 public class datatypes {
     public static void main(String[] args) {
         int i = 101110;
-        float f = 10.1f;
+        float f = 10.12341f;
         byte b = 42;
         double d = 10.1456;
         char c = 'A';
