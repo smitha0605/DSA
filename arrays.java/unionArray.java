@@ -55,7 +55,7 @@ class Solution {
 public static void main(String[] args) {
 
         int[] nums1 = {1, 2, 3, 4, 5};
-        int[] nums2 = {1, 2, 7};
+        int[] nums2 = {1, 3, 7};
 
         int[] union = unionArray(nums1, nums2);
 
