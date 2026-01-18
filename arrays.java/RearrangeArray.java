@@ -22,7 +22,7 @@ public class RearrangeArray {
 
     public static void main(String[] args) {
 
-        int[] nums = {2, 4, 5, -1, -3, -4};
+        int[] nums = {2, 4, 6, -1, -3, -4};
         int[] ans = rearrangeArray(nums);
         System.out.println(Arrays.toString(ans));
     }
