@@ -13,7 +13,7 @@
 
     public static void main(String[] args) {
 
-        int[] nums = {2, 3, 4, 5, 3};
+        int[] nums = {2,7,4, 5, 3};
         int target = 3;
 
         int result = findFirstIndex(nums, target);
