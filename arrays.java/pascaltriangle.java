@@ -24,7 +24,7 @@ public class pascaltriangle {
     }
 
     public static void main(String[] args) {
-        int numRows = 5;
+        int numRows = 4;
 
         List<List<Integer>> triangle = generate(numRows);
 
