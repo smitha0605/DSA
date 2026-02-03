@@ -1,14 +1,17 @@
-import java.util.*;
+
+
 public class longestCommonPrefix {
+
     public static void main(String[] args) {
         String[] strs = {"flower", "flow", "flight"};
-        System.out.println(longestCommonPrefix(strs));
+        System.out.println(findLongestCommonPrefix(strs));
     }
 
-    static String longestCommonPrefix(String[] strs) {
+    static String findLongestCommonPrefix(String[] strs) {
         if (strs == null || strs.length == 0) {
             return "";
         }
+
         String prefix = strs[0];
 
         for (int i = 1; i < strs.length; i++) {

@@ -1,5 +1,5 @@
 import java.util.*;
-public class pascaltriangle {
+public class pascaltrianglee {
 
     public static List<List<Integer>> generate(int numRows) {
 
