@@ -1,6 +1,6 @@
 public class SearchInsertionPosition {
     public static void main(String[] args) {
-        int[] nums = {1, 3, 5, 7};
+        int[] nums = {1, 3, 6, 7};
         int target = 5;
 
         int left = 0;
