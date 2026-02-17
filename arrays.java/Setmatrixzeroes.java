@@ -57,7 +57,7 @@ public class Setmatrixzeroes {
         int[][] matrix = {
             {1, 1, 1},
             {1, 0, 1},
-            {1, 1, 1}
+            {1, 0, 1}
         };
 
         setZeroes(matrix);
