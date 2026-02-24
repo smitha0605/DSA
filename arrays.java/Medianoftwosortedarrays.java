@@ -43,7 +43,7 @@ public class Medianoftwosortedarrays {
 
     public static void main(String[] args) {
 
-        int[] nums1 = {1, 3};
+        int[] nums1 = {1, 4};
         int[] nums2 = {2};
 
         double median = findMedianSortedArrays(nums1, nums2);
