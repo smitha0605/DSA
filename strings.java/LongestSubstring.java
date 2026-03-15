@@ -26,7 +26,7 @@ public class LongestSubstring {
 
     public static void main(String[] args) {
 
-        String s = "abcabcbb";
+        String s = "abcabacbb";
 
         int result = lengthOfLongestSubstring(s);
 
