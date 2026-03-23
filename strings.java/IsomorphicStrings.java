@@ -32,6 +32,6 @@ public class IsomorphicStrings {
 
     public static void main(String[] args) {
         System.out.println(isIsomorphic("egg", "add"));   
-        System.out.println(isIsomorphic("f11", "b23"));  
+        System.out.println(isIsomorphic("f11", "b73"));  
     }
 }
